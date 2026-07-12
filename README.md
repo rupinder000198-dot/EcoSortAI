@@ -60,9 +60,10 @@ EcoSortAI/
 ├── .env.example
 ├── .gitignore
 └── screenshots/
-    ├── home_page.png
+    ├── home_dashboard.png
     ├── image_upload.png
-    ├── analysis_result.png
+    ├── analysis.png
+    ├── ai_processing.png
     ├── analysis_history.png
     └── assistant.png
 ```
@@ -132,49 +133,49 @@ streamlit run app.py
 ### 1. Home Dashboard
 Shows the main interface, project overview, and waste image upload section.
 
-![Home Dashboard](screenshots/home_dashboard.png)
+![Home Dashboard](home_dashboard.png)
 
 ---
 
 ### 2. Image Upload
 Uploading a waste image for AI analysis.
 
-![Image Upload](screenshots/image_upload.png)
+![Image Upload](image_upload.png)
 
 ---
 
 ### 3. AI Processing
 Gemini Vision analyzing the uploaded image.
 
-![AI Processing](screenshots/ai_processing.png)
+![AI Processing](ai_processing.png)
 
 ---
 
 ### 4. AI Analysis Result
 Displays the predicted waste category, recyclability, disposal instructions, environmental tip, and confidence score.
 
-![AI Result](screenshots/analysis.png)
+![AI Result](analysis.png)
 
 ---
 
 ### 5. Human Validation
 Users can verify or correct the AI prediction to support responsible AI.
 
-![Human Validation](screenshots/human_validation.png)
+![Human Validation](human_validation.png)
 
 ---
 
 ### 6. Analysis History
 Stores previous analyses and allows downloading a CSV report.
 
-![Analysis History](screenshots/analysis_history.png)
+![Analysis History](analysis_history.png)
 
 ---
 
 ### 7. EcoSort Assistant
 AI-powered assistant that answers recycling and waste disposal questions.
 
-![EcoSort Assistant](screenshots/assistant.png)
+![EcoSort Assistant](assistant.png)
 
 ---
 
